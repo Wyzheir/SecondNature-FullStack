@@ -1,0 +1,31 @@
+# --- Python & 编辑器垃圾 ---
+__pycache__/
+*.pyc
+.idea/
+*.iml
+
+# --- 虚拟环境 ---
+.venv/
+venv/
+
+# --- 严防死守的私密文件与本地日志 ---
+.env
+*.log
+backend.log
+
+# --- 截图里看到的本地巨型压缩包与临时文件 ---
+*.7z
+*.zip
+*.rar
+build/
+
+# --- 截图里看到的本地辅助开发/数据清洗脚本（不上云） ---
+catch.py
+export_code.py
+ingest_cmedqa.py
+view_chroma.py
+hel_backend.md
+
+# --- 向量数据库本地数据 ---
+chroma_db/
+mysql_data/

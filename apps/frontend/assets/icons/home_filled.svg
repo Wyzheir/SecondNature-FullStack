@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <mask id="home-mask">
+    <rect width="24" height="24" fill="white" />
+    <line x1="12" y1="9" x2="12" y2="15" stroke="black" stroke-width="2" stroke-linecap="round" />
+  </mask>
+  <path d="M9 4h6l4 4v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V8z" fill="currentColor" stroke="currentColor" stroke-width="2" stroke-linejoin="round" mask="url(#home-mask)" />
+</svg>

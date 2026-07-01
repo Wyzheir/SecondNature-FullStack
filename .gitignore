@@ -1,0 +1,47 @@
+# ==========================================
+# 1. 根目录及通用缓存隔离
+# ==========================================
+.DS_Store
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.env
+.env.*
+
+# ==========================================
+# 2. 后端 FastAPI (apps/backend) 隔离区
+# ==========================================
+apps/backend/__pycache__/
+apps/backend/*.py[cod]
+apps/backend/*$py.class
+apps/backend/.venv/
+apps/backend/venv/
+apps/backend/env/
+apps/backend/.pytest_cache/
+apps/backend/.coverage
+apps/backend/chroma_db/  
+
+# ==========================================
+# 3. 前端 Flutter (apps/frontend) 隔离区
+# ==========================================
+apps/frontend/.dart_tool/
+apps/frontend/.flutter-plugins
+apps/frontend/.flutter-plugins-dependencies
+apps/frontend/.packages
+apps/frontend/build/
+apps/frontend/html/
+
+# 前端原生私密文件硬拦截
+apps/frontend/android/.gradle/
+apps/frontend/android/local.properties
+apps/frontend/android/**/generated/
+apps/frontend/android/*.keystore
+apps/frontend/android/*.jks
+apps/frontend/ios/.generated/
+apps/frontend/ios/Flutter/.flutter-plugins
+apps/frontend/ios/Flutter/Generated.xcconfig
+apps/frontend/ios/Flutter/flutter_export_environment.sh

@@ -1,0 +1,28 @@
+# Web 框架与服务器
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# 数据库与 ORM
+sqlalchemy>=2.0.20
+pymysql>=1.1.0
+aiomysql>=0.2.0
+alembic>=1.13.1
+
+# 数据校验与配置管理
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# 安全与鉴权
+pyjwt>=2.8.0
+passlib>=1.7.4
+bcrypt>=4.0.0
+email-validator>=2.0.0
+
+# HTTP 客户端
+httpx
+starlette
+
+# AI 相关（若需要 chromadb 和 pandas，请保留，但需确保网络稳定）
+chromadb
+tqdm
+pandas
